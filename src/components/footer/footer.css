@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+.footer{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background: inherit !important;
+    border-top: 1px solid #1a3b3b;
+    margin-top: 1rem;
+}
+.footer__note p{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    padding: .5rem 0;
+    color: #aaa;
+}

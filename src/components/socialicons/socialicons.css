@@ -1,0 +1,88 @@
+.icons{
+    margin-left: 2rem;
+}
+.facebook {
+    color: white !important;
+    background-color: rgb(33, 66, 202);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+  .facebook:hover {
+    transform: translate(0, -15px);
+  }
+
+  .github {
+    color: white !important;
+    background-color: rgb(24, 26, 27);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+  .github:hover {
+    transform: translate(0, -15px);
+  }
+
+  .linkedin {
+    color: white !important;
+    background-color: rgb(50, 33, 202);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    border-radius: 50%;
+    padding: 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+  .linkedin:hover {
+    transform: translate(0, -15px);
+  }
+
+  .instagram {
+    color: white !important;
+    background-color: rgb(224, 8, 109);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+  .instagram:hover {
+    transform: translate(0, -15px);
+  }
+
+  .twitter {
+    color: white !important;
+    background-color: rgb(50, 33, 202);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+  .twitter:hover {
+    transform: translate(0, -15px);
+  }

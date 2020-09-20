@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+
+/* font-family: 'Lato', sans-serif; */
+.main__homepage {
+  padding: 1rem;
+}
+.image {
+  border-radius: 5%;
+  /* height: 20rem; */
+  /* margin: 2rem; */
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.emoji {
+  width: 64px;
+  height: 41px;
+}
+.intro {
+  font-family: "Lato", sans-serif;
+  color: gray;
+  font-weight: 800;
+}
+.intro h3 span {
+  color: #000;
+  font-size: 3.7rem;
+  font-family: "Niconne", cursive;
+}
+.personal__info {
+  margin: 2rem 0;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+}
+.linker {
+  color: #c7950c !important;
+  font-weight: bold !important;
+  font-style: italic;
+}
+.personal__info p {
+  font-weight: 300;
+}
+.blockquote {
+  margin-top: 2rem;
+}
+blockquote {
+  display: block;
+  background: inherit;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  /*Font*/
+  font-family: "Lato", sans-serif;
+  line-height: 1.2;
+  font-weight: 300;
+  font-size: 1rem;
+  /* color: #666; */
+  text-align: justify;
+
+  /*Borders - (Optional)*/
+  border-left: 15px solid #c7950c;
+  border-right: 2px solid #c7950c;
+
+  /*Box Shadow - (Optional)*/
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+blockquote::before {
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: "Georgia", serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+blockquote::after {
+  /*Reset to make sure*/
+  content: "";
+}
+@media screen and (max-width: 768px) {
+  .intro{
+    margin-top: 3rem !important;
+    
+  }
+}

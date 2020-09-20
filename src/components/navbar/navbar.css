@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Monda&family=Source+Code+Pro:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+/* font-family: 'Modak', cursive;
+font-family: 'Monda', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.my__name {
+  font-family: "Modak", cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #fff !important;
+  font-family: 'Niconne', cursive;
+}
+.my__name span{
+  background-color: #c7950c;
+  color: #000;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50%;
+}
+nav ul li a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  padding: 5px;
+  text-decoration: none !important;
+  color: #aaa;
+  margin: 0 5px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #c7950c;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+.button{
+  background-color: inherit !important;
+  border: none !important;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 1rem 2rem;
+  transition: .5s ease-in-out;
+  color: #aaa;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+}
+.button:hover{
+  background-color: #1a3b3b !important;
+}
+@media screen and (max-width: 768px) {
+  .button{
+    margin-top: 15rem !important;
+    text-align: center !important;
+    margin-left: 5rem !important;
+  }
+}
+

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main__home {
+  height: 100vh;
+  background-color: #000000;
+  background-image: linear-gradient(
+    to top,
+    #0d080b,
+    #130f13,
+    #171418,
+    #1a181e,
+    #1d1d24,
+    #1d2028,
+    #1d242c,
+    #1c272f,
+    #1a2930,
+    #182c31,
+    #172e31,
+    #173030
+  );
+}
+.card {
+  margin: 1rem;
+  background: transparent;
+  border: none;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  /* height: 80vh; */
+}
+
+@media screen and (max-width: 786px) {
+  .main__home{
+    height: 230vh;
+  }
+}
